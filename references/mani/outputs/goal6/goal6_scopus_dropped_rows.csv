@@ -1,0 +1,5 @@
+DropReason,#,Authors,Author full names,Author(s) ID,Title,Year,Source title,Volume,Issue,Art. No.,Page start,Page end,Page count,Cited by,DOI,Link,Abstract,Author Keywords,Index Keywords,Document Type,Publication Stage,Open Access,Source,EID,Year_num,Abstract_clean
+invalid_year+empty_abstract,,,,,,,,,,,,,,,,,,,,,,,,,,
+invalid_year+empty_abstract,,,,,,,,,,,,,,,,,,,,,,,,,,
+invalid_year+empty_abstract,,,,,,,,,,,,,,,,,,,,,,,,,,
+empty_abstract,,,,,,1966,,,,,,,,,,,,,,,,,,,1966.0,

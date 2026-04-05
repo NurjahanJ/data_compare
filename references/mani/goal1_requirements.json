@@ -1,0 +1,30 @@
+{
+  "goal": "Goal #1 \u2014 Classification of Scopus Publications",
+  "data_source": "raw_data/MANI_KW_PAPERS_scopus.csv",
+  "classification_basis": "Abstract only (Title/Keywords/metadata must not influence classification)",
+  "required_outputs": [
+    "Serial Number",
+    "Year",
+    "Title",
+    "Primary Class",
+    "Primary Desc",
+    "Secondary Class",
+    "Secondary Desc",
+    "Tertiary Class",
+    "Tertiary Desc",
+    "Reasoning"
+  ],
+  "integrity_constraint": "All original columns must remain in final dataset",
+  "sorting": [
+    "Year",
+    "Primary Class",
+    "Secondary Class",
+    "Tertiary Class"
+  ],
+  "taxonomy_source": "classification/FEROFLUIDS_CLASS_DEFINITION.md",
+  "modeling_constraints": {
+    "no_paid_apis": true,
+    "open_source_huggingface": true,
+    "colab_free_tier": true
+  }
+}

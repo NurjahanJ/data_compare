@@ -1,0 +1,12 @@
+{
+  "scopus_csv": "/content/drive/MyDrive/mani/raw_data/MANI_KW_PAPERS_scopus.csv",
+  "patents_csv_a": "/content/drive/MyDrive/mani/raw_data/MANI_KW_PATENTS_A_weds1969to2009.csv",
+  "patents_csv_b": "/content/drive/MyDrive/mani/raw_data/MANI_KW_PATENTS_B_weds2010tonow.csv",
+  "major_classes_md": "/content/drive/MyDrive/mani/classification/MAJOR_CLASSES.md",
+  "out_dir": "/content/drive/MyDrive/mani/outputs/goal6",
+  "out_csv_scopus": "/content/drive/MyDrive/mani/outputs/goal6/goal6_scopus_major_classified.csv",
+  "out_csv_patents": "/content/drive/MyDrive/mani/outputs/goal6/goal6_patents_major_classified.csv",
+  "model_name": "typeform/distilbert-base-uncased-mnli",
+  "batch_size": 16,
+  "hypothesis_template": "This text is about {}."
+}

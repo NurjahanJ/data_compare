@@ -1,0 +1,9 @@
+{
+  "scopus_csv": "/content/drive/MyDrive/mani/raw_data/MANI_KW_PAPERS_scopus.csv",
+  "class_md": "/content/drive/MyDrive/mani/classification/FEROFLUIDS_CLASS_DEFINITION.md",
+  "out_dir": "/content/drive/MyDrive/mani/outputs",
+  "out_csv": "/content/drive/MyDrive/mani/outputs/goal1_scopus_classified.csv",
+  "model_name": "facebook/bart-large-mnli",
+  "batch_size": 8,
+  "hypothesis_template": "This text is about {}."
+}

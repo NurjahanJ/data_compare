@@ -1,0 +1,10 @@
+{
+  "patents_csv_a": "/content/drive/MyDrive/mani/raw_data/MANI_KW_PATENTS_A_weds1969to2009.csv",
+  "patents_csv_b": "/content/drive/MyDrive/mani/raw_data/MANI_KW_PATENTS_B_weds2010tonow.csv",
+  "class_md": "/content/drive/MyDrive/mani/classification/FEROFLUIDS_CLASS_DEFINITION.md",
+  "out_dir": "/content/drive/MyDrive/mani/outputs",
+  "out_csv": "/content/drive/MyDrive/mani/outputs/goal2_patents_classified.csv",
+  "model_name": "typeform/distilbert-base-uncased-mnli",
+  "batch_size": 16,
+  "hypothesis_template": "This text is about {}."
+}
